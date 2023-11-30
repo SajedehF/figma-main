@@ -1,0 +1,97 @@
+.stats {
+  width: 100%;
+  height: 567px;
+  background-color: chartreuse;
+  margin-top: 150px;
+}
+.stats .bg {
+  width: inherit;
+  height: inherit;
+  background-color: #0b0706;
+}
+.stats .state-text {
+  width: 611px;
+  height: 284px;
+  padding: 142px 110px 141px 130px;
+}
+.stats .bg .state-text .tetx-row-state {
+  width: 611px;
+  height: 184px;
+}
+.stats .bg .state-text .tetx-row-state h2 {
+  color: #fff;
+  width: 611px;
+  /* H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.stats .bg .state-text .tetx-row-state p {
+  color: #fff;
+  width: 606px;
+  padding: 16px 1px;
+  /* Paragraph */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.stats .bg .states-row {
+  width: 572px;
+  height: 68px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 5px;
+  margin-top: 75px;
+}
+.stats .bg .states-row .state {
+  width: 171px;
+  height: 26px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.stats .bg .states-row .state .rect1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #bef3c0;
+}
+.stats .bg .states-row .state .rect2 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #ac94f1;
+}
+.stats .bg .states-row .state .rect3 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #fff0ca;
+}
+.stats .bg .states-row .state .rect4 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #f9cf64;
+}
+.stats .bg .states-row .state .rect5 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #f38fbf;
+}
+.stats .bg .states-row .state p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+}

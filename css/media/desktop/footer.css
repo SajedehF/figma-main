@@ -1,0 +1,112 @@
+.footer {
+  width: 100%;
+  background-color: black;
+  height: auto;
+}
+.footer footer {
+  width: inherit;
+  /* height: 402px; */
+  display: flex;
+  flex-flow: row;
+  padding: 96px 110px;
+  /* column-gap: 40px;
+  row-gap: 15px; */
+  box-sizing: border-box;
+  position: relative;
+  justify-content: space-between;
+}
+.footer footer .links-parent {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap:88px;
+  padding-left: 117px;
+  padding-right: 143px;
+}
+
+.footer footer svg {
+  width: 110px;
+  height: 22.278px;
+  flex-shrink: 0;
+  display: flex;
+}
+/* .footer footer .links {
+  width: 91px;
+  height: 218px;
+} */
+.footer footer .links .our-team {
+  /* width: 74px;
+  height: 210px; */
+  display: flex;
+  flex-flow: column;
+  gap:24px;
+}
+.our-team h3 {
+  /* padding: 10px 0; */
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
+}
+.our-team p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* padding: 10px 0;  */
+}
+.footer .form {
+  /* width: 544px;
+  height: 208px; */
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.footer .form h5 {
+  color: #fff;
+  /*font-family: Roboto;*/
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 56px */
+  /* width: 440px;
+  padding: 32px 0; */
+}
+.footer .form .formfiled {
+  /* width: 570px;
+  height: 64px; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer .form .formfiled input[type="text"] {
+    width: 100%;
+  height: 64px;
+  border-radius: 4px;
+  border: 1px solid rgba(235, 240, 249, 0.3);
+  padding: 0 10px;
+  background: unset;
+}
+.footer .form .formfiled button {
+  display: inline-flex;
+  height: 64px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* width: 88px; */
+  border-radius: 4px;
+  background: #fff;
+  backdrop-filter: blur(40px);
+  border: unset;
+  color: #1d2130;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -1,0 +1,89 @@
+.whatwedo {
+  width: 100%;
+  background-color: #eff7f2;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 65px auto;
+}
+.whatwedo .whatwedo-child .title {
+  width: 100%;
+  /* height: 184px; */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.whatwedo .whatwedo-child .title h2 {
+  width: 100%;
+  font-size: 25px;
+  color: #1d2130;
+    text-align: center;
+    
+}
+.whatwedo .whatwedo-child .title h1 {
+  width: 70%;
+  color: #1d2130;
+  font-size: 30px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 17px 0;
+  text-align: center;
+}
+.whatwedo .whatwedo-child .title p {
+  font-size: 15px;
+  color: #1d2130;
+  font-weight: 500;
+  padding:  0 16px;
+}
+.functions {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 35px;
+}
+.functions .function {
+  width: 436px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.functions .function .function-svg {
+  display: flex;
+  align-items: start;
+  
+  justify-content: start;
+}
+.functions .function .function-des {
+  display: flex;
+  flex-flow: column;
+}
+
+/*.functions .function .function-tilte p {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-flow: row wrap;
+}
+.functions .function .function-tilte h3 {
+  width: 384px;
+  font-size: 12px;
+  padding: 0 30px;
+}*/
+.whatwedo .img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin:15px 0;
+  /* flex-flow: column; */
+}
+ /* .whatwedo .img img { */
+  /* width: inherit; */
+/* } */

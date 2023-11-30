@@ -1,0 +1,104 @@
+.whatwedo {
+  width: 100%;
+  /* height: 1360px; */
+  background-color: #eff7f2;
+  /* display: flex; */
+  flex-flow: column wrap;
+  margin: 31px auto;
+}
+.whatwedo .title {
+  width: 100%;
+  margin-top: 15px;
+}
+ .whatwedo .title h2 {
+  font-size: 15px;
+  color: #1d2130;
+  text-align: center;
+}
+.whatwedo .title h1 {
+  /* width: 100%; */
+  color: #1d2130;
+  font-size: 20px;
+  font-family: Roboto;
+  /* font-size: 48px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 17px 50px;
+}
+.whatwedo .title p {
+  color: #1d2130;
+  font-weight: 500;
+  padding: 0 26px;
+  text-align: center;
+  font-size: 12px;
+}
+.functions {
+  width: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+   padding: 10px;
+   gap: 10px;
+}
+.functions .function {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+  /* gap: 10px; */
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+.functions .function .function-svg {
+  display: flex;
+  align-items: start;
+  
+  justify-content: start;
+}
+.functions .function .function-des {
+ 
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+
+}
+/* .functions .function svg { 
+  width: 28px;
+  height: 28px;
+}
+.functions .function h3 {
+  
+  text-align: center;
+  margin-left: 12px;
+  
+  font-size: 15px;
+}
+.functions .function p {
+  position: absolute;
+  top: 56px;
+  left: 35px;
+ 
+  font-size: 12px;
+} */
+.functions .function .function-des p {
+  text-transform: capitalize;
+  font-size: 15px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.functions .function .function-des h3 {
+ 
+  font-size: 12px;
+}
+.img {
+  width: 100%;
+  height: 300px;
+  padding: 10px 0;
+  margin: 15px 0;
+}
+.img img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}

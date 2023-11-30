@@ -1,0 +1,111 @@
+.our-mision {
+  width: 100%;
+  background: #eff7f2;
+  translate: 0px -35% ;
+  /* position: relative; */
+  /* height: 876px; */
+}
+.our-mision .mision {
+  width: inherit;
+  padding: 30% 0px 96px 0 ;
+  /* height: 876px; */
+  /* background: #eff7f2; */
+  /* position: absolute; */
+  /* bottom: 321px; */
+  /* left: 0; */
+}
+.our-mision .mision .text-row {
+  /* width: 1088px; */
+  /* height: 257px; */
+ margin: 0px auto;
+  /* padding: 224px 206px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 96px;
+}
+.our-mision .mision .text-row .text {
+  width: 496px;
+  height: 257px;
+}
+.our-mision .mision .text-row .text h6 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.our-mision .mision .text-row .text h3 {
+  color: #1d2130;
+  width: 496px;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 42px */
+  padding: 16px 0;
+}
+.our-mision .mision .titlerow{
+  margin-top: 128px;
+  padding: 0px 5%;
+}
+.our-mision .mision .titlerow h3{
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.our-mision .mision .bottomrow{
+  padding: 0px 5%;
+  margin-top: 35px;
+}
+.our-mision .mision .bottomrow .logorow{
+  width: inherit;
+  height: 31.017px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.our-mision .mision .bottomrow .logorow  svg{
+  width: 136.817px;
+  height: 30.952px;
+  fill: #1d2103;
+  opacity: 0.6;
+}
+/* .our-mision .mision .bottom-row .title-row {
+  width: 170px;
+  height: 19px;
+  padding: 58px 138px;
+}
+.our-mision .mision .bottom-row .title-row h5 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.our-mision .mision .bottom-row .logo-row {
+  width: 1280px;
+  height: 31px;
+  padding: 0 107px;
+}
+.our-mision .mision .bottom-row .logo-row svg {
+  width: 136.395px;
+  height: 30.935px;
+  fill: #1d2130;
+  opacity: 0.6;
+  padding: 0 34.5px;
+} */

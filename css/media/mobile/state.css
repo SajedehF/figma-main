@@ -1,0 +1,101 @@
+.stats {
+  width: 100%;
+  margin-top: 150px;
+}
+.stats .bg {
+  width: inherit;
+  background-color: #0b0706;
+  padding: 25px 0;
+}
+.stats .state-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  /* padding: 142px 0px 203px  0px; */
+}
+.stats .bg .state-text .tetx-row-state {
+  /* width: 100%; */
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+
+}
+.stats .bg .state-text .tetx-row-state h2 {
+  padding: 0 50px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.stats .bg .state-text .tetx-row-state p {
+  color: #fff;
+  padding: 16px 10px;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  line-height: 160%;
+  width: 50%;
+  
+}
+.stats .bg .states-row {
+  /* width: 100%; */
+    /* height: 68px; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 25px;
+     margin-top: 25px;
+    justify-content: start;
+     /* margin: 25px 0; */
+}
+.stats .bg .states-row .state {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.stats .bg .states-row .state .rect1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #bef3c0;
+}
+.stats .bg .states-row .state .rect2 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #ac94f1;
+}
+.stats .bg .states-row .state .rect3 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #fff0ca;
+}
+.stats .bg .states-row .state .rect4 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #f9cf64;
+}
+.stats .bg .states-row .state .rect5 {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #f38fbf;
+}
+.stats .bg .states-row .state p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+}

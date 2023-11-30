@@ -1,0 +1,90 @@
+.cta {
+  width: 100%;
+  padding: 96px 110px;
+  position: relative;
+  box-sizing: border-box;
+}
+.cta .bg1 {
+  width: auto;
+  height: 429px;
+  background-image: url(../../../img/cta.png) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  background-size: 100%;
+  margin-top: 96px;
+  box-sizing: border-box;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.cta .bg1 .content1 {
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+  width: 631px;
+  height: 199px;
+  top: calc(50% - 199px / 2);
+  left: calc(50% - 631px / 2);
+}
+.cta .bg1 .content1 p {
+  color: #fff;
+  text-align: center;
+  width: 631px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  /* H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.cta .bg1 .row-button {
+  width: 347px;
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta .bg1 .row-button button:first-of-type {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #70c174;
+  backdrop-filter: blur(40px);
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: unset;
+}
+.cta .bg1 .row-button button:last-of-type {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff;
+  backdrop-filter: blur(40px);
+  color: #1d2130;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: unset;
+}
+

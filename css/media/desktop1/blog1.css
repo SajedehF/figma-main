@@ -1,0 +1,71 @@
+.blog {
+  /* width: 100%; */
+  padding: 0px 110px 96px 110px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.blog .blog-section {
+  width: 100%;
+  height: 479px;
+}
+.blog .blog-section .tilte-section {
+  width: inherit;
+  height: 56px;
+  margin-bottom: 48px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.blog .blog-section .tilte-section h4 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 56px */
+  margin-bottom: 48px;
+}
+.blog .blog-section .blog-posts {
+  width: inherit;
+  height: 328px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 24px;
+}
+.blog-posts-child{
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  width: 50%;
+}
+.blog .blog-section .blog-posts .blog-post {
+  width: 50%;
+  height: 328px;
+  /* padding: 0 22px; */
+  box-sizing: border-box;
+}
+.blog .blog-section .blog-posts .blog-post img {
+  width: 100%;
+  height: 192px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.blog .blog-section .blog-posts .blog-post h5 {
+  color: #1c1d28;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  width: 100%;
+}
+.blog .blog-section .blog-posts .blog-post p {
+  color: #525560;
+  font-family: Roboto;
+  width: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}

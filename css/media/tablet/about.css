@@ -1,0 +1,143 @@
+.about {
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 96px 0;
+}
+.about .top {
+  width: 100%;
+  /* height: 724.359px; */
+  display: flex;
+  flex-flow: column wrap;
+}
+.top-child{
+  padding:5%;
+}
+.about .top .text {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.about .top .text .line {
+  width: 100%;
+  height: 19px;
+  display: flex;
+  column-gap: 24px;
+  justify-content: start;
+  align-items: center;
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.about .top .text .title {
+  padding-left: 97px;
+  margin-top: 32px;
+
+}
+.about .top .text .title h2 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.about .top .text .description {
+  padding-left: 97px;
+  margin-top: 64px;
+}
+.about .top .text .description p {
+  color: #525560;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.about .top .text button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #70c174;
+  backdrop-filter: blur(40px);
+  margin-left: 97px;
+  margin-top: 48px;
+  border: unset;
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.about .top .video {
+  width: 100%;
+  height: 578.341px;
+  position: relative;
+}
+.about .top .video img {
+  width: 100%;
+  height: inherit;
+  border-radius: 12px;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  object-fit: contain;
+}
+.about .top .video svg {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.about .top .titlerow {
+  height: 50px;
+  margin-top: 128px;
+  padding-left:  30px;
+}
+.about .top .titlerow h3 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.about .top .bottomrow {
+  width: 100%;
+  height: 89.018px;
+  display: flex;
+}
+.about .top .bottomrow .logorow {
+  width: inherit;
+  height: 84.017px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+}
+.about .top .bottomrow .logorow svg {
+  width: 136.817px;
+  height: 30.952px;
+  fill: #1d2103;
+  opacity: 0.6;
+  padding: 0 30px;
+}

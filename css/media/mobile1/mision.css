@@ -1,0 +1,94 @@
+.our-mision {
+  width: 100%;
+  /* position: relative; */
+  /* height: 862px; */
+}
+.our-mision .mision {
+  /* width: inherit; */
+  height: inherit;
+  background: #eff7f2;
+  padding: 20px 30px;
+  /* position: absolute;
+  bottom: -20%;
+  left: 0; */
+}
+.our-mision .mision .text-row {
+  width: 100%;
+  /* height: 257px; */
+  margin-top: 32px;
+  /* padding: 224px 206px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 96px;
+}
+.our-mision .mision .text-row .text {
+  width: 100%;
+  /* height: 257px; */
+  /* margin-left: 50px; */
+}
+.our-mision .mision .text-row .text h6 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.our-mision .mision .text-row .text h3 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  padding: 16px 0;
+  text-align: center;
+}
+.our-mision .mision .text-row .text p {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 150%;
+  width: 90%;
+  text-align: center;
+}
+.our-mision .mision .bottomrow {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.our-mision .mision  .titlerow {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+}
+.our-mision .mision  .titlerow h5 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.our-mision .mision .bottomrow .logorow {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+.our-mision .mision .bottomrow .logorow svg {
+  width: 30%;
+  fill: #1d2130;
+  opacity: 0.6;
+}

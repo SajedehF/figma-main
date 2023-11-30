@@ -1,0 +1,85 @@
+.wrapper .menu-mobile {
+  display: none;
+}
+
+.menu {
+  width: 100%;
+  height: 67px;
+  background: #fff;
+  backdrop-filter: blur(15px);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.menu .logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .logo svg {
+  width: 130px;
+  height: 26.329px;
+}
+.menu .link {
+  width: 80%;
+  padding: 0 110.5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu .link nav {
+  width: 500px;
+  height: 51px;
+}
+.menu .link nav ul {
+  width: inherit;
+  height: inherit;
+  list-style: none;
+  display: flex;
+  column-gap: 40px;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.menu .link nav ul li {
+  width: auto;
+  height: inherit;
+}
+.menu .link nav ul li a {
+  color: #525560;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 51px;
+  display: block;
+  line-height: 40px;
+  transition: 300ms;
+}
+.menu .link nav ul li a:hover {
+  background-color: rgb(218, 218, 218);
+}
+.donate {
+  display: inline-flex;
+  width: 51px;
+  height: 19px;
+  padding: 12px 32px;
+  background-color: #1d2130;
+  border-radius: 4px;
+  color: whitesmoke;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}

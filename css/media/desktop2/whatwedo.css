@@ -1,0 +1,67 @@
+.whatwedo {
+  width: 100%;
+  /* height: 574px; */
+}
+.whatwedo .whatwedo-section {
+  /* width: inherit; */
+  /* height: inherit; */
+  background: #eff7f2;
+  padding: 96px 110px 104px 110px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.whatwedo .whatwedo-section h2 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 70px;
+  text-align: center;
+}
+.whatwedo .whatwedo-section .features {
+  /* width: 1280px; */
+  /* height: 252px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  /* gap: 2%; */
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.whatwedo .whatwedo-section .features .featur {
+  width: 30%;
+  /* height: 102px; */
+  display: flex;
+  flex-flow: row ;
+  justify-content: start;
+  gap: 24px;
+  padding: 64px 0;
+}
+.whatwedo .whatwedo-section .features .featur svg {
+  width: 20%;
+  height: 28px;
+}
+.whatwedo .whatwedo-section .features .featur .text {
+  /* width: 332px; */
+  /* height: 102px; */
+}
+.whatwedo .whatwedo-section .features .featur .text h3 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.whatwedo .whatwedo-section .features .featur .text p {
+  color: #525560;
+  /* width: 332px; */
+  /* Paragraph small */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}

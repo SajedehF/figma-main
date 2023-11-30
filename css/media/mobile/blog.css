@@ -1,0 +1,72 @@
+.blog {
+  /* width: 100%; */
+  padding: 20px 30px;
+}
+.blog .blog-section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 30px;
+}
+.blog .blog-section .tilte-section {
+  /* width: inherit; */
+  /* height: 56px; */
+  /* margin-bottom: 48px; */
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+}
+.blog .blog-section .tilte-section h4 {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.blog .blog-section .blog-posts {
+  width: inherit;
+  /* height: 328px; */
+  display: flex;
+  flex-flow: column wrap;
+  gap: 24px;
+}
+.blog .blog-section .blog-posts .blog-post {
+  width: 100%;
+  /* padding: 0 22px;*/
+}
+.blog .blog-section .blog-posts .blog-posts-child{
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+}
+.blog .blog-section .blog-posts .blog-posts-child .blog-post {
+  text-align: center;
+}
+.blog .blog-section .blog-posts .blog-posts-child .blog-post img {
+  width: 100%;
+  height: 192px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.blog .blog-section .blog-posts .blog-posts-child .blog-post h5 {
+  color: #1c1d28;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* width: 257px; */
+  padding: 0 10px;
+}
+.blog .blog-section .blog-posts .blog-posts-child .blog-post p {
+  color: #525560;
+  font-family: Roboto;
+  /* width: 271px; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding: 0 10px;
+}

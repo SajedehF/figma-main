@@ -1,0 +1,90 @@
+.whatwedo {
+  width: 100%;
+  background-color: #eff7f2;
+  display: flex;
+  justify-content: space-around;
+  margin: 65px auto;
+}
+.whatwedo-child{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.whatwedo .whatwedo-child .title {
+  width: 500px;
+  padding: 20px 100px;
+}
+.title h2 {
+  font-size: 15px;
+  color: #1d2130;
+}
+.title h1 {
+  color: #1d2130;
+  font-size: 30px;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 17px 0;
+}
+.title p {
+  font-size: 15px;
+  color: #1d2130;
+  font-weight: 500;
+}
+.functions {
+  width: 460px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 100px;
+}
+.functions .function {
+  width: 436px;
+  height: 88px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.functions .function svg {
+  width: 28px;
+  height: 28px;
+}
+.functions .function h3{
+ position: absolute;
+ top: 30px;
+ left: 50px;
+}
+.functions .function p{
+  position: absolute;
+  top: 65px;
+  left: 50px;
+ }
+/*.functions .function .function-tilte p {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-flow: row wrap;
+}
+.functions .function .function-tilte h3 {
+  width: 384px;
+  font-size: 12px;
+  padding: 0 30px;
+}*/
+.img {
+ width: 480px;
+ height: 658px;
+ padding: 147px 0px;
+ padding-right: 110px;
+}
+.img img{
+    width: inherit;
+    height: inherit;
+    /* padding: 45px 0px; */
+}

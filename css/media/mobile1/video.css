@@ -1,0 +1,25 @@
+.video {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+.video .video-banner {
+  width: inherit;
+  
+}
+.video .video-banner img {
+  width: inherit;
+  border-radius: 12px;
+  object-fit: cover;
+  display: none;
+}
+.video .video-banner svg {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  display: none;
+}

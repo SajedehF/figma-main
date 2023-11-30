@@ -1,0 +1,222 @@
+.projects {
+  /* width: 100%; */
+  /* display: flex;
+  justify-content: center; */
+  padding: 96px 110px;
+  box-sizing: border-box;
+}
+.projects .projectrow {
+  /* width: 1280px;
+  height: 600px; */
+}
+.projects .projectrow .line-title {
+  width: fit-content;
+  height: 19px;
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+  align-items: center;
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  padding-left: 25px;
+}
+.projects .projectrow h2 {
+  color: #1d2130;
+  width:50%;
+  /* H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding-left: 120px;
+}
+.projects .projectrow .project {
+      /* width: 1285px; */
+    /* height: 421px; */
+    display: flex;
+    width: 100%;
+    /* flex-flow: row wrap; */
+    column-gap: 24px;
+    padding: 65px 0;
+    justify-content: center;
+}
+.projects .projectrow .project1 {
+   width: 30%;
+  height: auto; 
+  border-radius: 12px;
+  background-image: url(../../../img/project1.png);
+  border-radius: 12px;
+  opacity: 0.7;
+  background-color: #0b0706;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.projects .projectrow .project1 .content {
+  /* width: 315px;
+  height: 293px; */
+  padding: 80px 48px 48px 48px;
+}
+.projects .projectrow .project1 .content h3 {
+  color: #fff;
+  /* width: 315px; */
+  /* H3 */
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 42px */
+}
+.projects .projectrow .project1 .content p {
+  color: #fff;
+  /* width: 315px; */
+  padding: 16px 0;
+  /* Paragraph */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.projects .projectrow .project1 .content button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff;
+  backdrop-filter: blur(40px);
+  border: unset;
+  color: #1d2130;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* margin-top: 80px; */
+}
+.projects .projectrow .project2 {
+  width: 30%;
+  height: auto;
+  border-radius: 12px;
+  background-image: url(../../../img/project2.png);
+  border-radius: 12px;
+  opacity: 0.7;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.projects .projectrow .project2 .content {
+  /* width: 315px;
+  height: 293px; */
+  padding: 80px 48px 48px 48px;
+}
+.projects .projectrow .project2 .content h3 {
+  color: #fff;
+  /* width: 315px; */
+  /* H3 */
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 42px */
+}
+.projects .projectrow .project2 .content p {
+  color: #fff;
+  /* width: 315px; */
+  padding: 16px 0;
+  /* Paragraph */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.projects .projectrow .project2 .content button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff;
+  backdrop-filter: blur(40px);
+  border: unset;
+  color: #1d2130;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* margin-top: 80px; */
+}
+
+.projects .projectrow .project3 {
+  width: 30%;
+  height: auto;
+  border-radius: 12px;
+  background-image: url(../../../img/project3.png);
+  border-radius: 12px;
+  opacity: 0.7;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.projects .projectrow .project3 .content {
+  /* width: 315px;
+  height: 293px; */
+  padding: 80px 48px 48px 48px;
+}
+.projects .projectrow .project3 .content h3 {
+  color: #fff;
+  /* width: 315px; */
+  /* H3 */
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 42px */
+}
+.projects .projectrow .project3 .content p {
+  color: #fff;
+  /* width: 315px; */
+  padding: 16px 0;
+  /* Paragraph */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.projects .projectrow .project3 .content button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff;
+  backdrop-filter: blur(40px);
+  border: unset;
+  color: #1d2130;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* margin-top: 80px; */
+}

@@ -1,0 +1,90 @@
+.ourteam {
+  width: 100%;
+  /* padding: 28px 0 0 0 ; */
+}
+.ourteam .ourteam-section {
+  /* width: 100%; */
+  padding: 0px 30px;
+}
+.ourteam .ourteam-section .text {
+  /* width: 100%; */
+  /* height: 136px; */
+  /* margin: 0 auto;*/
+  
+}
+.ourteam .ourteam-section .text h2 {
+  color: #1d2130;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 16px 0;
+}
+.ourteam .ourteam-section .text p {
+  color: #525560;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  opacity: 0.6;
+}
+.ourteam .ourteam-section .team-members {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+.ourteam .ourteam-section .team-members .team-member {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 10px;
+}
+.ourteam .ourteam-section .team-members .team-member img {
+  width: 100%;
+  height: 320px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.ourteam .ourteam-section .team-members .team-member .info {
+  /* width: 80%; */
+  /* height: 95px; */
+  /* padding: 20px; */
+}
+.ourteam .ourteam-section .team-members .team-member .info h5 {
+  color: #1d2130;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 32px */
+}
+.ourteam .ourteam-section .team-members .team-member .info p {
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  opacity: 0.6;
+  text-align: center;
+  padding: 10px 0;
+}
+.ourteam .ourteam-section .team-members .team-member .info .socialrow {
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+.ourteam .ourteam-section .team-members .team-member .info .socialrow svg {
+  width: 20px;
+  height: 20px;
+}

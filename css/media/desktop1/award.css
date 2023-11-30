@@ -1,0 +1,69 @@
+.award {
+  width: 100%;
+  /* height:305.995px ; */
+  margin: 0 auto;
+}
+.award .award-section {
+  /* width: 85%; */
+  /* height: 304.995px; */
+  margin: 0 auto;
+}
+.award .award-section h2 {
+  color: #1d2130;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; 
+  text-align: center;/* 57.6px */
+  margin-left: 80px;
+}
+.award .award-section .awards-row {
+    /* height: 198.995px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 10%;
+    /* column-gap: 208px; */
+    align-items: center;
+    margin: 60px auto;
+}
+.award .award-section .awards-row .award1 {
+  /* width: 120px; */
+  /* height: 198.995px; */
+}
+.award .award-section .awards-row .award1 svg {
+  width: 111.002px;
+  height: 92px;
+  flex-shrink: 0;
+}
+.award .award-section .awards-row .award1 h3 {
+  color: #1d2130;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 38.4px */
+}
+.award .award-section .awards-row .award1 h4 {
+  color: #1d2130;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
+}
+.award .award-section .awards-row .award1 p {
+  color: #1d2130;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 19.2px */
+  text-transform: uppercase;
+  opacity: 0.6;
+}

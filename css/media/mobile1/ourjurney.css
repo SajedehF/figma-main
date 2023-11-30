@@ -1,0 +1,109 @@
+.ourjourney {
+  width: 100%;
+  /* height: 576px; */
+  padding: 96px 0;
+}
+.ourjourney .journey {
+  /* width: 100%; */
+  background-color: black;
+  /* margin: 0 auto; */
+  border-radius: 12px;
+  background: #0b0706;
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 10px;
+}
+.ourjourney .journey .text {
+  /* width: 100%; */
+  /* height: 213px; */
+  padding: 0 30px;
+}
+
+.journey-left{
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 20px; */
+
+}
+
+.journey-right{
+  /* height: 100%; */
+    /* padding: 0 20px; */
+    padding-left:30px;
+
+}
+
+
+.ourjourney .journey .text h5 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 50px 0;
+  text-align: center;
+}
+.ourjourney .journey .text h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 10px 0;
+  text-align: center;
+}
+.ourjourney .journey .text p {
+  color: #fff;
+  opacity: 0.6;
+  /* Paragraph */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: center; /* 25.6px */
+}
+.ourjourney .journey .stats-row {
+  width: 100%;
+  /* height: 57px; */
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.ourjourney .journey .stats-row .state {
+  /* width: 30%; */
+  /* padding: 20px 0; */
+}
+.ourjourney .journey .stats-row .state h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 38.4px */
+}
+.ourjourney .journey .stats-row .state p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 19.2px */
+  opacity: 0.6;
+}
+.ourjourney .journey img {
+  margin-top: 50px;
+  width: 100%;
+  /* height: 448px; */
+  flex-shrink: 0;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  object-fit: cover;
+}
