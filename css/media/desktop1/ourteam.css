@@ -7,7 +7,7 @@
   /* width: 1280px; */
   /* height: 1084px; */
   /* margin: 10px auto; */
-  padding: 0px 110px;
+  padding: 0px 110px; 
 }
 .ourteam .ourteam-section .text {
   /* width: 519px; */
@@ -48,7 +48,7 @@
   justify-content: space-between;
 }
 .ourteam .ourteam-section .team-members .team-member {
-  /* height: 431px; */
+  width: 45%;
   display: flex;
   flex-flow: column;
   justify-content: center;

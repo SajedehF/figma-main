@@ -81,10 +81,11 @@
  width: 480px;
  height: 658px;
  padding: 147px 0px;
- padding-right: 110px;
+
 }
 .img img{
     width: inherit;
     height: inherit;
+    object-fit: contain;
     /* padding: 45px 0px; */
 }
