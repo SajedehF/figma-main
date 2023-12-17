@@ -1,12 +1,13 @@
 .banner {
   width: 100%;
-   height: calc(100vh - 65px); 
+  height: calc(100vh - 65px);
   background-image: url(../../../img/header.png) !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
 }
+
 .banner .text {
   width: 65%;
   position: absolute;
@@ -14,7 +15,9 @@
   top: 12%;
   color: #fff;
 }
+
 .banner .text p {
+  width: 800px;
   font-family: Roboto;
   font-size: 64px;
   font-style: normal;
