@@ -1,6 +1,6 @@
 .cta {
   width: 100%;
-  padding: 96px 110px;
+  padding: 0px 110px;
   position: relative;
   box-sizing: border-box;
 }
@@ -15,7 +15,16 @@
   margin-top: 96px;
   box-sizing: border-box;
   object-fit: cover;
-  margin: 0 auto;
+  margin: 100px auto;
+  /* درست شد 
+  یسوال 
+  من 1280 دادم بالاتر بشه دسکتاپ خب
+  چرا پس تبلت گرفته ؟
+  تبلت نگرفته
+  الان مگه ندیدی مارجینش اومد؟
+  من فایل دسکتاپو تغییر دادم دیگه پس اون یکیارو باید درس کنم؟
+  نمیدونم چی میگی
+   */
 }
 .cta .bg1 .content1 {
   position: absolute;
@@ -87,4 +96,3 @@
   line-height: normal;
   border: unset;
 }
-
