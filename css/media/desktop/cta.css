@@ -16,6 +16,7 @@
   box-sizing: border-box;
   object-fit: cover;
   margin: 100px auto;
+  border-radius: 15px;
 }
 .cta .bg1 .content1 {
   position: absolute;
